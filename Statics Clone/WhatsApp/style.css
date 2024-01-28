@@ -118,6 +118,11 @@ body{
 
 }
 
+.one{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
 .dp{
     height: 40px;
     width: 40px;
@@ -131,5 +136,9 @@ body{
 .lastmms{
     font-size: small;
     text-transform: capitalize;
+    inline-size: 130px;
+}
 
+.lasttime{
+    font-size: 14px;
 }
